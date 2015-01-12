@@ -2,10 +2,9 @@
 
 if "%builder_starts%"=="" goto :EOF
 
-set repo_name=Geometry
-set repo_url=https://github.com/Albiglittle/homework/%repo_name%
-set solution_name=Project
-set solution_file=%repo_name%\%solution_name%.sln
+set repo_name=GeomBuilder
+set repo_url=https://github.com/Albiglittle/%repo_name%
+set solution_name=GeomBuilderset solution_file=%repo_name%\%solution_name%.sln
 set build_folder=%repo_name%\GeomBuilder\bin\Debug
 
 set msbuild_failed=FALSE
@@ -24,7 +23,7 @@ set attache=attache.txt
 set BlatPath=C:\blat323\full\
 
 set email_list=%config%\email_list.txt
-set email_to=danilkokov@gmail.com
+set email_to=temic_m@mail.ru
 set email_from=reportbuilder@mail.com
 set email_server=smtp.mail.ru
 
