@@ -6,7 +6,7 @@ set repo_name=Geometry
 set repo_url=https://github.com/Albiglittle/homework/%repo_name%
 set solution_name=Project
 set solution_file=%repo_name%\%solution_name%.sln
-set build_folder=%repo_name%\GeomBuilder\GeomBuilder\bin\Debug
+set build_folder=%repo_name%\GeomBuilder\bin\Debug
 
 set msbuild_failed=FALSE
 set git_failed=FALSE
